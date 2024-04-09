@@ -105,8 +105,8 @@ analytics:
 author:
   name: "Jinmyeong Shin"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Ph.D. Candidate in Computer Engineering at Pusan National University"
-  # location: "Somewhere"
+  bio: "Ph.D. Candidate in Computer Engineering"
+  location: "Pusan National University"
   email:
   links:
     - label: "shin.jm@icloud.com"
