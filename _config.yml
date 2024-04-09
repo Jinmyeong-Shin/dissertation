@@ -105,11 +105,11 @@ analytics:
 author:
   name: "Jinmyeong Shin"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
+  bio: "Ph.D. Candidate in Computer Engineering at Pusan National University"
+  # location: "Somewhere"
   email:
   links:
-    - label: "Email"
+    - label: "shin.jm@icloud.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
