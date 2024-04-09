@@ -67,6 +67,8 @@
 
 
 
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Task-Specific Differential Private Data Publish Method for Privacy-Preserving Deep Learning Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +90,34 @@
 
 <!-- end custom head snippets -->
 
-    
+
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$'] ],
+      processEscapes: true,
+    }
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+  	  alert("Math Processing Error: "+message[1]);
+  	});
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+  	  alert("Math Processing Error: "+message[1]);
+  	});
+</script>
+<script
+  type="text/javascript"
+  async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
+></script>
+
+
   </head>
 
   <body class="layout--home">
@@ -111,7 +140,9 @@
           Task-Specific Differential Private Data Publish Method for Privacy-Preserving Deep Learning
           
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -178,6 +209,13 @@
 
       
 
+      
+        <li>
+          <a href="mailto:shin.jm@icloud.com" rel="me" class="u-email">
+            <meta itemprop="email" content="shin.jm@icloud.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
       
 
       
@@ -248,13 +286,20 @@
 
 <!-- <h3 class="archive__subtitle">Recent posts</h3> -->
 
- 
+<style> .pdf-embed-wrap-15d96453-4ca8-44e4-86e9-90b44e975224 { display: flex; flex-direction: column; width: 100%; height: 1200px; } .pdf-embed-container-15d96453-4ca8-44e4-86e9-90b44e975224 { height: 100%; } .pdf-embed-container-15d96453-4ca8-44e4-86e9-90b44e975224 iframe { width: 100%; height: 100%; } </style> <div class="pdf-embed-wrap-15d96453-4ca8-44e4-86e9-90b44e975224"> <div class="pdf-embed-container-15d96453-4ca8-44e4-86e9-90b44e975224"> <iframe src="/assets/pdf/Dissertation_PNU.pdf" frameborder="0" allowfullscreen></iframe> </div> </div>
+
+<!-- <a href="#page-title" class="back-to-top"
+  >Back to top
+  &uarr;</a
+> -->
+
+<!--  
 <div class="entries-list">
   
 </div>
 
 
-
+ -->
 
   </div>
 </div>
@@ -289,6 +334,8 @@
       
     
 
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
   </ul>
 </div>
